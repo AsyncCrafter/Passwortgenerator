@@ -1,0 +1,27 @@
+* {
+    font-family: "Merriweather", Georgia, "Times New Roman";
+}
+
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid #000000;
+}
+
+input {
+    font-size: 16px;
+}
+
+button {
+    font-size: 16px;
+}
+
+#todo-list {
+    margin-top: 20px;
+    text-align: left;
+}
