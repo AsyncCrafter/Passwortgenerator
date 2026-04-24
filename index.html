@@ -14,24 +14,24 @@
         <label for="password-length">Password Length: <span id="length-value">12</span></label>
         <br>
 
-        <input type="radio" id="uppercase">
+        <input type="checkbox" id="uppercase" checked>
         <label for="uppercase">Include Uppercase</label>
         <br>
 
-        <input type="radio" id="lowercase">
+        <input type="checkbox" id="lowercase" checked>
         <label for="lowercase">Include Lowercase</label>
         <br>
 
-        <input type="radio" id="numbers">
+        <input type="checkbox" id="numbers" checked>
         <label for="numbers">Include Numbers</label>
         <br>
         
-        <input type="radio" id="symbols">
+        <input type="checkbox" id="symbols">
         <label for="symbols">Include Symbols</label>
         <br>
 
         <button id="generate-password">Generate Password</button>
-        <div id="finished-password"></div>
+        <div id="finished-password" class="finished-password"></div>
     </main>
 
     <script src="script.js"></script>
